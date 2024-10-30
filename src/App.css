@@ -82,16 +82,29 @@ body {
   height: 100%;
   font-size: 18px;
   border-right: none;
-  background-color: tomato;
+  color: black;
+  background-color: gainsboro;
 }
 
 .task button {
   flex: 20%;
   height: 100%;
   border: none;
-  background-color: lightseagreen;
+  background-color: tomato;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   color: white;
   cursor: pointer;
 }
+
+.reset button {
+    width: 150%;
+    height: 150%;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    margin-top: 5%;
+}
+
